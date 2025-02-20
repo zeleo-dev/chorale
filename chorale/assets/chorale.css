@@ -1,0 +1,50 @@
+
+/*<uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+
+header{
+  background: linear-gradient(150deg, rgba(217,217,217,1) 27%, rgba(105,10,98,1) 100%);
+    font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
+    box-shadow:10px 5px 5px  ;
+    
+}
+
+
+/*placement des items à droite*/
+#navbarSupportedContent {
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.navbar-nav{
+  --bs-navbar-nav-link-padding-x:3.5rem;
+
+}
+
+/*logo taille*/
+.navbar  img{
+    width: 150px;
+    height:100px;   
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Playfair Display", serif;
+font-size: 5rem;
+background-image: linear-gradient(150deg, rgba(217,217,217,1) 27%, rgba(105,10,98,1) 100%);
+background-clip: text;
+color:transparent;
+
+}
+   
