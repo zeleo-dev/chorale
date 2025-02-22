@@ -1,4 +1,3 @@
-
 /*<uniquifier>: Use a unique and descriptive class name
  <weight>: Use a value from 400 to 900
 
@@ -9,16 +8,24 @@
   font-style: normal;
 }
 */
-
-
-header{
-  background: linear-gradient(150deg, rgba(217,217,217,1) 27%, rgba(105,10,98,1) 100%);
-    font-size: 1.5rem;
-    font-family: "Playfair Display", serif;
-    box-shadow:10px 5px 5px  ;
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+header {
+  background: linear-gradient(
+    150deg,
+    rgba(106, 17, 207, 0.336) 27%,
+    rgb(6, 21, 155) 100%
+  );
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  box-shadow: 10px 5px 5px;
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+}
 
 /*placement des items à droite*/
 #navbarSupportedContent {
@@ -26,25 +33,29 @@ header{
   margin-right: 30px;
 }
 
-.navbar-nav{
-  --bs-navbar-nav-link-padding-x:3.5rem;
-
+.navbar-nav {
+  --bs-navbar-nav-link-padding-x: 3.5rem;
 }
 
 /*logo taille*/
-.navbar  img{
-    width: 150px;
-    height:100px;   
+.navbar img {
+  width: 150px;
+  height: 100px;
 }
-
-h1{
-  text-align: center;
-  margin-top: 50px;
+.img-fluid {
+  margin: 0;
+}
+h1 {
+  position: relative;
+  bottom: 1000px;
+  left: 250px;
   font-family: "Playfair Display", serif;
-font-size: 5rem;
-background-image: linear-gradient(150deg, rgba(217,217,217,1) 27%, rgba(105,10,98,1) 100%);
-background-clip: text;
-color:transparent;
-
+  font-size: 3.5rem;
+  background-image: linear-gradient(
+    150deg,
+    rgba(38, 15, 167, 0.336) 27%,
+    rgb(5, 14, 88) 100%
+  );
+  background-clip: text;
+  color: transparent;
 }
-   
